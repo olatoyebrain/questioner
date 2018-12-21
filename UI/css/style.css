@@ -80,6 +80,7 @@ header {
 }
 
 .column.about{
+    background: #e9eee8;
     width: 55%;
     padding: 10px;
     box-sizing: border-box;
