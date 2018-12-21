@@ -313,6 +313,21 @@ border: 1px solid #ececec;
   color:#454545;
 }
 
+.posted-question-profile{
+  font-size: 20px;  
+}
+
+.posted-question-meetups{
+  font-size:15px;
+}
+
+.mt-b{
+  margin: 40px 0px !important;
+}
+
+.posted-question-comments{
+  font-size:15px;
+}
 .card{
     padding: 10px;
   /* border-bottom: 1px solid; */
