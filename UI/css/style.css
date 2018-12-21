@@ -18,6 +18,24 @@ body{
     padding: 0;
 }
 
+a{
+    color: #4193d0;
+}
+
+.rit{
+    float: right;
+}
+
+.lef{
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
 header {
   background-color: #3094e4;
     padding: 15px;
@@ -169,6 +187,10 @@ margin-top: 50px;
 color: #454545;
 font-size: 14px;
 }
+.form-footer{
+    font-size:14px;
+    margin-top:15px;
+}
 /* Media queries*/
 @media screen and (max-width:698px) {
     .column.about{
@@ -178,6 +200,10 @@ font-size: 14px;
     .column.signup{
         width: 100%;
     }
+    .signup.signup-page{
+        width: 70%;
+        padding: 20px;
+        }
     .row-signup{
       width: 90%;
     }
@@ -198,6 +224,10 @@ font-size: 14px;
     box-sizing: border-box;
     border: 1px solid #f2f2f2;
     border-radius: 5px;
+  }
+  .signup.signup-page{
+    width: 45%;
+    padding: 30px;
   }
   .signup{
     background-color:#ffffff;
